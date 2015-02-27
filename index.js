@@ -7,11 +7,11 @@ var config = {
 	selector: '#PriceType5_Price select',	
 }
 
-function getTickets(element){
+function getTickets(element)
+{
 	
 	// check we have jquery loaded
 	if(window.jQuery){
-		
 		
 		// check to see if the tickets have been released yet
 		if($(element)!== null && $(element).length !== 0){
